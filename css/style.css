@@ -1,0 +1,144 @@
+body {
+   font-family: "Ariel", sans-serif;
+   background-color: #f1f1f1;
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+#topbar {
+   width: 100%; height: 65px;
+   border: 1px solid #d9d9d9;
+   background-color: #f1f1f1;
+   overflow: hidden;
+   cursor: default;
+}
+#topbar p { position: absolute;
+   top: 17px; left: 25px;
+   font-family: "Futura", sans-serif;
+   font-size: 1.9em;
+}
+#topbar span {
+   display: block;
+   overflow: hidden;
+   margin: 0 40px 0 130px;
+   padding: 15px;
+}
+input {
+   width: 100%; height: 30px;
+   border-radius: 2px 0 0 2px;
+   border: 1px solid #d9d9d9;
+   border-right: 0px;
+   padding-left: 5px;
+   font-size: 1em;
+   transition: .5s;
+   outline: none;
+}
+input:hover{ border: 1px solid #b9b9b9;}
+input:focus{ border: 1px solid #4688f1;}
+input:active{ border: 1px solid #4688f1;}
+
+#topbar button {
+   position: absolute;
+   top: 16px; right: 40px;
+   width: 34px; height: 34px;
+   border-radius: 0 2px 2px 0;
+   background-color: #4688f1;
+   color: white;
+   border: 0px;
+   transition: 1s;
+   user-select: none;
+   cursor: pointer;
+   outline:none;
+}
+#topbar button:hover { background-color: #3f7be4;}
+#topbar button:active { background-color: #366ad3; box-shadow: 0 0 5px #b5c7e4;}
+
+#navbar {
+   height: 60px; width: 100%;
+   background-color: white;
+   border: 1px solid #d9d9d9;
+   border-top: 0px;
+   white-space: nowrap;
+   user-select: none;
+   cursor: default;
+}
+#navbuttons {
+   position: absolute;
+   top:72px; right:0px;
+   width: 215px; height: 55px;
+   background-color: white;
+}
+#navbar nav { padding: 22px 0 0 130px; color: #777777;}
+a:hover { color: #222222;} #navbar a:active { color: #4688f1;}
+#navbar a { font-size: .85em; padding: 0 13px 19px 13px;  transition: .25s; cursor: pointer;}
+#currentpage {color: #4688f1; font-weight: bold; border-bottom: 3px solid #4688f1;}
+
+#navbar button {
+   position: absolute;
+   top: 10px;
+   height: 30px;
+   border-radius: 2px;
+   border: 1px solid #d9d9d9;
+   background-color: #f1f1f1;
+   color:#515151;
+   transition: .25s;
+   cursor: pointer;
+   outline:none;
+}
+#navbar button[id="SafeSearch"] { right: 130px; width: 85px; font-weight: bold; font-size: .6em;}
+#navbar button[id="settings"] { right: 40px; width: 60px; }
+#navbar button:hover{ border: 1px solid #c6c6c6; box-shadow: 0 1px .5px #ebebeb;}
+#navbar button:active{ box-shadow: 0 0px 2px #c6c6c6 inset;}
+
+#imagerow {display: flex; justify-content:space-between; padding: 15px 20px 0 20px;}
+#imagerow img {width: 23vw; height: 15vw;}
+
+.box1, .box2, .box3, .box4,.box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14 {width: 23vw; height: 15vw;}
+
+
+.box1{background-color: gold;}
+.box2{background-color: tomato;}
+.box3{background-color: orchid;}
+.box4{background-color: skyblue;}
+.box5{background-color: orange;}
+.box6{background-color: royalblue;}
+.box7{background-color: khaki;}
+.box8{background-color: limegreen;}
+.box9{background-color: blueviolet;}
+.box10{background-color: palegreen;}
+.box11{background-color: sandybrown;}
+.box12{background-color: pink;}
+.box13{background-color: silver;}
+.box14{background-color: aqua;}
+
+
+.box1:hover {background-color: white;}
+.box2:hover{background-color: black;}
+.box3:hover{background-color: white;}
+.box4:hover{background-color: black;}
+.box5:hover{background-color: white;}
+.box6:hover{background-color: black;}
+.box7:hover{background-color: white;}
+.box8:hover{background-color: black;}
+.box9:hover{background-color: white;}
+.box10:hover{background-color: black}
+.box11:hover{background-color: white;}
+.box12:hover{background-color: black;}
+.box13:hover{background-color: white;}
+.box14:hover{background-color: black;}
+
+.box1:active {background-color: black;}
+.box2:active{background-color: white;}
+.box3:active{background-color: black;}
+.box4:active{background-color: white;}
+.box5:active{background-color: black;}
+.box6:active{background-color: white;}
+.box7:active{background-color: black;}
+.box8:active{background-color: white;}
+.box9:active{background-color: black;}
+.box10:active{background-color: white;}
+.box11:active{background-color: black;}
+.box12:active{background-color: white;}
+.box13:active{background-color: black;}
+.box14:active{background-color: white;}
